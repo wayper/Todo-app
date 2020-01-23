@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .amound {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: rgb(179, 108, 37);
+}
+
+.footer .btn-group .filter-btn {
+    margin-left: 3px;
+    font-family: 'Exo 2', sans-serif;
+    color: darkred;
+    background: none;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    outline:none;
+    outline-offset: 0;
+}
+
+.footer .btn-group .active {
+    font-weight: bold;
+}

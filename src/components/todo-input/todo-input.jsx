@@ -7,7 +7,7 @@ const ToDoInput = ({ value, onChange, onKeyPress }) => (
     <div className="todo-input-wrapper">
         <input 
             className="todo-input"
-            placeholder="Click to add task"
+            placeholder="... add task"
             onChange={onChange}
             onKeyPress={onKeyPress}
             value={value}
