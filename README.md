@@ -1,6 +1,6 @@
 # Todo-app
 
-![Presentation picture](https://github.com/wayper/Todo-app/src/todo.png "Presentation picture")
+![Presentation picture](https://github.com/wayper/Todo-app/blob/master/src/todo.png "Presentation picture")
 
 This project is an example of a to-do list using React and Redux. The project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
 
