@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(105, 50, 50);
+    text-shadow: 6px 7px 5px rgb(46, 29, 29);
+    text-align: center;
+}

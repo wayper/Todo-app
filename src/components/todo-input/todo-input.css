@@ -1,0 +1,53 @@
+.todo-input-wrapper {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(242, 238, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(134, 104, 104);
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px #4b2f20 inset;
+}
+
+.todo-input-wrapper input {
+    padding-left: 10px;
+    flex-grow: 1;
+    align-self: stretch;
+    font-family: 'Roboto', sans-serif;
+    color:  rgb(58, 51, 51);
+    font-size: 35px;
+    background: none;
+    border: none;
+}
+
+.todo-input-wrapper input::placeholder {
+    color:  rgb(95, 11, 11);
+    opacity: 0.5;
+  }
+
+.todo-input-wrapper input:hover {
+    padding-left: 13px;
+}
+
+.todo-input-wrapper input:focus {
+    padding-left: 13px;
+}
+
+.todo-input-wrapper input:hover::placeholder  {
+    opacity: 1;
+}
+
+.todo-input-wrapper .fa-feather-alt {
+    margin: 0 5px;
+    color: grey;
+    font-size: 20px;
+    flex-grow: 0;
+    align-self: center;
+}
+
+input:hover + .fa-feather-alt {
+    color: rgb(95, 11, 11);
+}
